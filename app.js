@@ -5,8 +5,8 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
 
-const homeStartingContent = " Welcome to Sumanth's Blog-Post website.This website allows you to post as many blogs you like and stores all of them in the Amazon AWS server, so that anytime you visit our website back your post will be there waiting for you. Post blogs here to educate people with your knowledge and share your wonderful experiences with the world ! ";
-const aboutContent = " Heyy, I am Sumanth S from Bengaluru Karnataka. Currently I am pursuing Computer Science Engineering at Dayanand Sagar Academy Of Technology And Management. I communicate with Machines using Code and to Humans using Machines );";
+const homeStartingContent = " Welcome to Sumanth's Blog-Post.This website allows you to post as many blogs you like and stores all of them in the Amazon AWS server, so that anytime you visit our website back your post will be there waiting for you. Post blogs here to educate people with your knowledge and share your wonderful experiences with the world ! ";
+const aboutContent = " Heyy, I am Sumanth S from Bengaluru Karnataka. Currently I am pursuing Computer Science Engineering at Dayanand Sagar Academy Of Technology And Management. I communicate with Machines using Code and to Humans using Machines ;-)";
 const contactContent = " You can contact me via mail : sumanths1245@gmail.com ";
 
 const app = express();
